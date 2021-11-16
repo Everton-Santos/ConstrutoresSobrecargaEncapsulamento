@@ -28,8 +28,14 @@ public class AppProduct {
 			Product product = new Product(name, price, quantity);
 			*/
 			Product product = new Product(name, price);
+						
+			//Atualizar o produto "TV" para "Computador"
+			product.setName("Computador");
+			System.out.println("Update name: " + product.getName());
 			
-			Product p = new Product();
+			//Atualizar o preço para "1200.00"
+			product.setPrice(1200.00);
+			System.out.println("Update price: " + String.format("%.2f", product.getPrice()));
 			
 			System.out.println("\nProduct " + product);
 			
