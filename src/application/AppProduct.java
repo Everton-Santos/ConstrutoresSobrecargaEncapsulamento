@@ -21,10 +21,15 @@ public class AppProduct {
 			System.out.print("Price: ");
 			double price = sc.nextDouble();
 			
-			System.out.print("Quantity in stock: ");
+			/*System.out.print("Quantity in stock: ");
 			int quantity = sc.nextInt();
 			
+			
 			Product product = new Product(name, price, quantity);
+			*/
+			Product product = new Product(name, price);
+			
+			Product p = new Product();
 			
 			System.out.println("\nProduct " + product);
 			
